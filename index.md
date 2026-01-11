@@ -1,2 +1,2 @@
 MATHEMATICAL INTUITION FOR LANGUAGE PROCESSING
-- [Figures explanations](chapter5.md)
+- [Chapter 5: Mathematical Intuition](chapter5.md)
