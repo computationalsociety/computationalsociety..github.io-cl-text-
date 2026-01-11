@@ -1,41 +1,6 @@
-# Site settings
 title: Introduction to Computational Linguistics
-description: >
-  A book-oriented presentation of Computational Linguistics,
-  emphasizing linguistic intuition, clarity, and accessibility.
-
-author:
-  name: Muhammad Shoaib Tahir
-
-# Theme
 theme: minima
-
-# Markdown processing
 markdown: kramdown
 
-# Build settings
-plugins:
-  - jekyll-feed
-
-# Navigation control
-header_pages:
-  - index.md
-
-# Include custom assets
 include:
   - assets
-
-# Disable unnecessary blog features
-minima:
-  social_links: {}
-
-# URL settings (safe defaults for GitHub Pages)
-url: ""
-baseurl: ""
-
-# Exclude unnecessary files
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
