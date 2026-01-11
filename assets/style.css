@@ -1,1 +1,8 @@
-
+.author-name {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.5rem;
+  font-size: 0.85rem;
+  color: #666;
+  font-style: italic;
+}
