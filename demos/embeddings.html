@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Word Embedding Demo</title>
+  <link rel="stylesheet" href="../assets/style.css">
+  <style>
+    body { font-family: serif; max-width: 900px; margin: auto; padding: 2rem; }
+    input { padding: 0.4rem; margin-right: 0.5rem; }
+    button { padding: 0.4rem 0.8rem; }
+    .result { margin-top: 1.5rem; }
+    .close { color: green; font-weight: bold; }
+    .far { color: darkred; font-weight: bold; }
+    pre { background: #f7f7f7; padding: 0.8rem; overflow-x: auto; }
+  </style>
+</head>
 
+<body>
+
+<h1>Word Embedding Similarity Demo</h1>
+
+<p>
+Enter two or three words to explore how word embeddings represent similarity in vector space.
+This demo uses pretrained embeddings and cosine similarity.
+</p>
+
+<input id="word1" placeholder="word 1">
+<input id="word2" placeholder="word 2">
+<button onclick="compare()">Compare</button>
+
+<div class="result" id="output"></div>
+
+<script src="embeddings.js"></script>
+</body>
+</html>
