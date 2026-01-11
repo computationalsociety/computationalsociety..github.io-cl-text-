@@ -107,6 +107,9 @@ Vectors allow systems to capture graded similarity rather than rigid categories.
 
 Distance between vectors reflects similarity in meaning or usage.
 
+> 🔎 **Interactive Demo**  
+> Try an interactive word-embedding demo where you can enter words and see how close they are in vector space:  
+> **[Open Word Embedding Demo](demos/embeddings.html)**
 ---
 
 ### Chapter Summary
