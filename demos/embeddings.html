@@ -3,36 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <title>Word Embedding Similarity Demo</title>
+
   <style>
     body {
       font-family: Georgia, serif;
-      max-width: 900px;
+      max-width: 950px;
       margin: 40px auto;
       line-height: 1.6;
     }
 
     input {
       padding: 6px;
-      width: 160px;
-      margin-right: 8px;
+      width: 140px;
+      margin: 4px;
     }
 
     button {
-      padding: 6px 12px;
+      padding: 6px 14px;
+      margin-left: 6px;
       cursor: pointer;
-    }
-
-    .result {
-      margin-top: 20px;
-      font-weight: bold;
-    }
-
-    .close {
-      color: green;
-    }
-
-    .far {
-      color: darkred;
     }
 
     pre {
@@ -45,6 +34,9 @@
       margin-top: 20px;
       border: 1px solid #ddd;
     }
+
+    .close { color: green; }
+    .far { color: darkred; }
   </style>
 </head>
 
@@ -53,15 +45,18 @@
 <h1>Word Embedding Similarity Demo</h1>
 
 <p>
-Enter two words to explore how word embeddings represent similarity in vector space.
-This demo uses pretrained embeddings and cosine similarity.
+Enter <b>two to five words</b> to explore how embeddings encode similarity in vector space.
 </p>
 
-<input id="word1" placeholder="Word 1" value="home">
-<input id="word2" placeholder="Word 2" value="house">
+<div id="inputs">
+  <input placeholder="Word 1" value="home">
+  <input placeholder="Word 2" value="house">
+</div>
+
+<button onclick="addWord()">+ Add word</button>
 <button onclick="compare()">Compare</button>
 
-<div class="result" id="similarity"></div>
+<div id="results"></div>
 
 <h3>Embedding Values (first 10 dimensions)</h3>
 <pre id="embeddings"></pre>
@@ -69,10 +64,10 @@ This demo uses pretrained embeddings and cosine similarity.
 <h3>Visualization</h3>
 
 <h4>Embedding Dimension Comparison</h4>
-<canvas id="barChart" width="750" height="250"></canvas>
+<canvas id="barChart" width="800" height="260"></canvas>
 
 <h4>2D Similarity Projection</h4>
-<canvas id="scatterPlot" width="500" height="400"></canvas>
+<canvas id="scatterPlot" width="520" height="420"></canvas>
 
 <script src="embeddings.js"></script>
 </body>
