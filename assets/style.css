@@ -1,8 +1,147 @@
+/* ============================
+   Global Typography & Layout
+   ============================ */
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #222;
+  background: #ffffff;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  line-height: 1.65;
+}
+
+/* ============================
+   Headings
+   ============================ */
+
+h1 {
+  font-size: 2.2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.4em;
+}
+
+h2 {
+  font-size: 1.6em;
+  margin-top: 1.6em;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.2em;
+}
+
+h3 {
+  font-size: 1.25em;
+  margin-top: 1.2em;
+}
+
+/* ============================
+   Author Name
+   ============================ */
+
 .author-name {
-  position: absolute;
-  top: 1.2rem;
-  right: 1.5rem;
-  font-size: 0.85rem;
+  font-size: 0.95em;
   color: #666;
-  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* ============================
+   Paragraphs & Lists
+   ============================ */
+
+p {
+  margin: 0.8em 0;
+}
+
+ul {
+  margin-left: 1.2em;
+}
+
+li {
+  margin: 0.4em 0;
+}
+
+/* ============================
+   Links
+   ============================ */
+
+a {
+  color: #1a4fd8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ============================
+   Horizontal Rules
+   ============================ */
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2em 0;
+}
+
+/* ============================
+   Top Navigation (Minima)
+   ============================ */
+
+/* Keep nav minimal and book-like */
+.site-header {
+  border-bottom: none;
+  margin-bottom: 20px;
+}
+
+.site-title {
+  font-weight: normal;
+  font-size: 1.1em;
+}
+
+.site-nav {
+  margin-top: 10px;
+}
+
+.site-nav a {
+  margin-right: 15px;
+  font-size: 0.95em;
+}
+
+/* ============================
+   Footer
+   ============================ */
+
+.site-footer {
+  margin-top: 3em;
+  padding-top: 1em;
+  border-top: 1px solid #ddd;
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* ============================
+   Code Blocks
+   ============================ */
+
+pre, code {
+  font-family: "Courier New", monospace;
+  background: #f6f6f6;
+}
+
+pre {
+  padding: 10px;
+  overflow-x: auto;
+  border: 1px solid #ddd;
+}
+
+/* ============================
+   Demo Pages (Shared Feel)
+   ============================ */
+
+nav {
+  font-family: Georgia, serif;
+}
+
+nav a {
+  font-size: 0.95em;
 }
