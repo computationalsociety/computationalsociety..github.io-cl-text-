@@ -42,4 +42,18 @@ The chapters emphasize:
 
 ---
 
+## Interactive Demonstrations
+
+The following interactive demos accompany specific chapters of the book and are intended to make abstract concepts concrete through hands-on exploration.
+
+- **[Word Embedding Similarity Demo](demos/embeddings.html)**  
+  Explore how words are represented as vectors and how similarity is computed in embedding space  
+  *(Related to Chapter 5: Mathematical Intuition for Language Processing)*
+
+- **[Morphology and Word Formation Demo](demos/preprocessing.html)**  
+  Interactive illustration of normalization, tokenization, stemming, lemmatization, and basic word formation  
+  *(Related to Chapter 7: Morphology and Word Formation)*
+
+---
+
 © Muhammad Shoaib Tahir
