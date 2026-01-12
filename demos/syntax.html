@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Syntax and Annotation Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="syntax.css">
+</head>
+
+<body>
+
+<nav style="margin-bottom: 30px; font-size: 15px;">
+  <a href="../chapter7.html">Chapter 8 — Morphology and Syntax</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="../index.html">Home</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="./">Interactive Demonstration</a>
+</nav>
+
+<h1>Syntax, Treebanks, and Annotation Demo</h1>
+
+<p class="subtitle">
+Illustrating constituency structure, dependency relations, and linguistic annotation
+</p>
+
+<textarea id="sentence">
+The small child saw the dog
+</textarea>
+
+<button onclick="analyze()">Analyze Sentence</button>
+
+<div class="grid">
+
+  <div class="card">
+    <h3>Constituency Structure</h3>
+    <pre id="constituency"></pre>
+  </div>
+
+  <div class="card">
+    <h3>Dependency Structure</h3>
+    <pre id="dependency"></pre>
+  </div>
+
+  <div class="card">
+    <h3>Annotated Tokens (Treebank Style)</h3>
+    <pre id="annotation"></pre>
+  </div>
+
+  <div class="card full">
+    <h3>What Is a Treebank?</h3>
+    <p>
+      A <b>treebank</b> is a corpus in which sentences are manually annotated
+      with syntactic structure, such as constituency trees or dependency relations.
+      These annotations are used to train and evaluate parsing models.
+    </p>
+  </div>
+
+</div>
+
+<script src="syntax.js"></script>
+</body>
+</html>
